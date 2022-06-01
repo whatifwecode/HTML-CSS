@@ -29,3 +29,17 @@ in real world we use classes, not IDs
 
 RGBA - where 'a' is alpha and stands for transparency
 
+shorthand property - to define different values for different properties
+
+usding :first-child for a first element in the list (for example)
+
+odd - нечетный
+
+nth-child (nothing) - you can then select it by 1,2...also can use odd or even (четный, нечетный)
+
+a:link - where link specifies anchors with href attribute
+
+text-decoration - no underlines for example (where is the line, line stile, line color)
+
+a:active - pseudoclass when you press the mouse button
+
