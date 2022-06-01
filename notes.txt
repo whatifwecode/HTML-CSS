@@ -43,3 +43,12 @@ text-decoration - no underlines for example (where is the line, line stile, line
 
 a:active - pseudoclass when you press the mouse button
 
+CSS Theory
+
+-conflicting declarations
+Highest priority goes to ID. Next is class or pseudo-class. Last one is element selector. If there is multiple - last in code applies. But the first place goes to inline style. And above the first goes to !important.
+
+Anchors with pseudo-class has bigger priority than just anchors.
+
+
+
