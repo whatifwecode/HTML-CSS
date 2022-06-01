@@ -1,0 +1,31 @@
+CSS - cascading style sheets
+
+h1, h2, p - are selctors for CSS
+color, text-allign... - properties
+blue, 20px... - value
+all together - is a declaration block
+
+
+inline css - writing the code inside the HTML element AND DONT FCNKG USE it
+internal css - writing the code inside the head element of HTML
+
+<style>
+      h1 {
+        color: blue;             seperation of concerns
+      }
+    </style>
+
+external css - creating a seperate file
+
+for id elements - use #
+
+main difference between IDs and classes is that we can not repeat ID names
+
+convence is to use dashes for css double names
+
+for class - use .
+
+in real world we use classes, not IDs
+
+RGBA - where 'a' is alpha and stands for transparency
+
