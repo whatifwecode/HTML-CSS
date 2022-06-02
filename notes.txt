@@ -43,12 +43,34 @@ text-decoration - no underlines for example (where is the line, line stile, line
 
 a:active - pseudoclass when you press the mouse button
 
-CSS Theory
+---CSS Theory---
 
 -conflicting declarations
 Highest priority goes to ID. Next is class or pseudo-class. Last one is element selector. If there is multiple - last in code applies. But the first place goes to inline style. And above the first goes to !important.
+Also, the universal selector (*) - the one that selects all of the elements has the lowest priority.
 
 Anchors with pseudo-class has bigger priority than just anchors.
+
+Not all properties get inherited, mostly ones related to text.
+
+Inheritance - наследование
+
+When changing something with href attribute - use :link. Always specify all 4 states of gref. Link Visited Hover Active
+
+---CSS BOX MODEL---
+
+content - text, images, etc. There we can define width and height.
+border - padding (space around the conent and border, still stays inside the element) - margin (creates empty space outside the element, making space between elements then)
+fill - filled with background color or background image.
+
+final elemnt width = left border + left padding + width + right padding + right border
+final element height = top border + top padding + height + bottom padding + bottom border
+
+Collapsing margins - margin-top and margin-bottom of 2 different elements are not summarising.
+
+Setting auto value for height and width is only needed, when dimensions were specified in HTML. Otherwise, it will attach automatically.
+
+Percetange of width is a % of parent container.
 
 
 
