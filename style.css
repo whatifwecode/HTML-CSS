@@ -10,6 +10,13 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px;
@@ -42,12 +49,14 @@ aside {
   width: 500px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #1098ad;
 }
 
 h1 {
-    font-size: 26px;
+  font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
@@ -75,7 +84,8 @@ p {
   margin-bottom: 15px;
 }
 
-ul,ol {
+ul,
+ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
@@ -131,19 +141,19 @@ li:nth-child(2) {
 }
 
 /* Misconception: this won`t work :( */
-article p:first-child{
+article p:first-child {
   color: red;
 }
 
 /* Styling links */
 
 a:link {
-  color:#1098ad;
+  color: #1098ad;
   text-decoration: none;
 }
 
 a:visited {
-  color:#1098ad
+  color: #1098ad;
 }
 
 a:hover {
