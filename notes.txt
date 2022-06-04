@@ -72,5 +72,26 @@ Setting auto value for height and width is only needed, when dimensions were spe
 
 Percetange of width is a % of parent container.
 
+inline boxes - take as much space as they need, no-line breaks after of before, heights and widths do not apply, padding and margins only applies horizontally (left or right). With css - display: inline;
+
+block-level boxes - take all the space that they can and can not be side by side, occupy 100# of parent`s width, stacked vertically by default. With css - display: block;
+
+inline block element - looks like inline from the outside, but behave line block-level on the inside - occupies only content`s space, causes no line-breaks, box-model applies as showed (margin, padding)
+
+images are inline-block elements
+
+//Absolute positioning//
+
+Normal flow - default pos, (position: relative), elements are simply laid out according to their order in the html code.
+Absolute positioning - position: abosloute. Element is out of flow, no impact on sorroundings, might overlap, we use top, bottom, right, left to offset element from relatively positioned contaqiner.  
+
+*relatively - относительно
+
+Pseudo elements - they do not exist in a code, but we still can style them. :: - selector
+adjasent - смежный, соседний.
+
+Adjasent sibling - is the very next element. +  -  selector
+
+Any pseudo element is a inline element, so better to make it inline-box element.
 
 
